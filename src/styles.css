@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.mainHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkcyan;
+  padding: 3%;
+  text-align: center;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+.input,
+.output {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 2rem 2rem;
+  width: 40%;
+}
+.emoji,
+.answer,
+.input-box {
+  font-size: 1.5rem;
+}
+.input-box {
+  width: 90%;
+  border: 1px solid black;
+  height: 30px;
+  padding: 1rem;
+}
+.answer {
+  color: blueviolet;
+}
+.emojilist {
+  list-style: none;
+}
+.item {
+  display: inline-block;
+  margin: 0.1rem;
+  height: 40px;
+  width: 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.emoji-meaning {
+  font-size: 1.5rem;
+  color: blueviolet;
+  text-align: center;
+}
